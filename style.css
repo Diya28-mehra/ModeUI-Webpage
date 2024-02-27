@@ -1,0 +1,422 @@
+
+.flex-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    font-size: 18px;
+}
+
+.announement {
+    display: inline-block;
+    background-color: #E6E7E9;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 20px;
+    margin: 0 10px;
+    padding: 4px 10px;
+}
+
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    color: rgb(63, 63, 63);
+    margin-bottom:80px;
+}
+
+.a2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap:60px;
+    font-size: 20px;
+}
+
+.dd1
+.dd2,
+.dd3,
+.dd4,
+.dd5,
+.dd6 {
+    flex: 1;
+}
+
+.dd1 select{
+    border:none;
+    background-color: white;
+}
+
+.a1 {
+    font-size: x-large;
+}
+
+#Card {
+    font-size: 18px;
+    padding: 5px;
+    width: 150px;
+    color: rgb(63, 63, 63);
+}
+
+.a3 button {
+    font-size: 20px;
+    padding:6px 14px;
+    width: 120px;
+    color: rgb(99, 99, 99);
+    border: none;
+    
+}
+
+.a3 i{
+    margin-left:10px;
+}
+
+.container1 {
+    position: relative;
+    /* Set container as relative */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); /* Create grid lines using linear gradients */
+    background-size: 20px 20px; /* Adjust the size of the grid lines */
+    opacity: 0.7;
+    z-index: -1;
+}
+
+
+.b4 button {
+    background-color: rgb(59, 10, 90);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.b4 button i {
+    margin-left: 5px;
+}
+
+.b3 {
+    color: rgb(103, 103, 103);
+    font-size: 24px;
+    margin-top: -60px;
+    text-align: center;
+    max-width: 750px;
+}
+
+.b2 {
+    font-size: 70px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.b1 {
+    font-size: 20px;
+    color: rgb(83, 35, 128);
+    margin-top: 100px;
+    margin-bottom: -80px;
+}
+
+.container {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.flex-container3 {
+    position: relative;
+    /* Set container as relative */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container2 {
+    position: relative;
+    /* Set container as relative */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    font-weight: 100;
+    margin: 0 auto;
+}
+
+.az1 {
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.az2 {
+    color: rgb(103, 103, 103);
+    font-size: 24px;
+    text-align: center;
+    width: 700px;
+}
+
+.az3 {
+    color: rgb(75, 35, 112);
+    font-size: 20px;
+}
+
+.container3 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    gap: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.im {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.i12 {
+    font-size: 28px;
+}
+
+.i13 {
+    margin-top: -10px;
+    font-size: 22px;
+    color: rgb(103, 103, 103);
+    text-align: center;
+    width: 400px;
+}
+
+.container4 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.flex-container5 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 200px;
+}
+
+.heading {
+    color: rgb(57, 26, 85);
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.small {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.content {
+    font-size: 22px;
+    color: rgb(103, 103, 103);
+    text-align: center;
+}
+
+.last {
+    position: relative;
+    /* Set container as relative */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    font-weight: 100;
+    margin: 100px auto;
+}
+
+.bb1 img {
+    height: 25px;
+}
+
+.bb2 {
+    font-size: 40px;
+    max-width: 1000px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(73, 73, 73, 0.974);
+    margin-bottom: 40px;
+}
+
+.d1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.d1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.d2 {
+    font-size: 18px;
+}
+
+.d3 {
+    margin-top: -8px;
+    font-size: 16px;
+    color: rgb(103, 103, 103);
+    margin-bottom: -10px;
+}
+
+.d4 img {
+    height: 40px;
+    width: 100px;
+}
+
+.t1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin: 50px auto;
+}
+
+.tt1 {
+    font-size: 28px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.tt2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tt2 button {
+    border: none;
+}
+
+.tt2 button i{
+    margin-left:10px;
+}
+
+.k1 button {
+    background-color: rgb(57, 26, 85);
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.k2 button {
+    background-color: rgb(204, 204, 204);
+    color: rgb(93, 93, 93);
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.t2{
+    margin-top:300px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.tk1{
+    font-size:15px;
+    font-weight: 900;
+}
+
+.tk2{
+    font-size:18px;
+    width:650px;
+    color: rgb(103, 103, 103);
+    word-spacing: 10px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.5;
+}
+
+.t3 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.tk3 {
+    font-size: 18px;
+}
+
+.tk3 p {
+    color: rgb(52, 52, 52); 
+    font-weight: normal; 
+    text-align:left;
+}
+
+.tk3 p:first-child {
+    color: black;
+    font-weight: bold; 
+    margin-bottom:25px;
+}
+
+.pp{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.f1{
+    display:flex;
+    gap:40px;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.f1 i{
+    color: rgb(103, 103, 103);
+}
+.f2{
+    color: rgb(103, 103, 103);
+    font-size:18px;
+    margin-bottom:100px;
+}
+
